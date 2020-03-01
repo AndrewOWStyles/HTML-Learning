@@ -1,0 +1,13 @@
+.parent-container {
+    display: flex;
+}
+
+.menu-bar {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 3;
+}
