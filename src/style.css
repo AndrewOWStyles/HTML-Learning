@@ -6,8 +6,35 @@
     display: flex;
     flex: 1;
     flex-direction: column;
+    background-color: rgb(52, 59, 59);
+    align-items: flex-end;
+}
+
+.menu-bar:first-child {
+    padding-top: 50px;
+}
+
+.link {
+    color: white;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 0px 5px 0px;
+}
+
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-image {
+    width: 100%;
 }
 
 .content-wrapper {
     flex: 3;
+}
+
+.page {
+    padding-left: 15px;
 }
